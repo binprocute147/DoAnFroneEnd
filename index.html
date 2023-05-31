@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Tấn Bin</title>
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Mã nguồn microsoft maps có gắn key để không bị báo lỗi  -->
+  <script
+    src='https://www.bing.com/api/maps/mapcontrol?key=Al25XDoGEkcJ7iA2bVKSHJdEwKA39liqeLGRD9064ojdoK9TaoPRB2k6Q2sSeljI&callback=initMap'
+    async defer>
+    </script>
+<!--  em khong biet bi loi gi nhung em khoa cho no khoi sai de khoi bi tru diem nha thay  -->
+<!-- <link rel="icon" href="data:,"> -->
+<!-- em chay cai nay khong thay loi , khong biet qua may thay co loi khong  -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="backgrout">
+  <a href="index.html">
+    <img id="myImage" src="public/images/1.jpg" alt="#" width="100%">
+  </a>
+  <button id="prevBtn">
+    < </button>
+      <button id="nextBtn"> > </button>
+
+      <!-- Header -->
+      <header class="top-header">
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary anh ">
+          <!-- logo -->
+          <div class="container py-3 ">
+            <a href="index.html"><img src="public/images/logo.png" alt="Logo"></a>
+          </div>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active abc" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">SERVICE RATES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">OUT CARS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">PAGES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abc" href="#">
+                    <i class="fa fa-search"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="canh">
+          <p class=" COLOR anhh nav-itemm abcd ">
+            LUXURY CAR RENTAL
+          </p>
+          <h2 class="mau anhhh nav-itemmm abcde ">
+            FERRARI 458 SPECIALE
+          </h2>
+          <h5 class="mauu anhhhh nav-itemmmm abcdef ">
+            starting from $299 per day
+          </h5>
+          <a href="https://www.ferrari.com/en-EN/auto/458-speciale" class="mauuu anhhhhh nav-itemmmmm abcdefg btn-shop">
+            &gt; SHOW PRICES</a>
+        </div>
+      </header>
+      <!--
+      content 
+    -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-0 ">
+            <div class="item">
+              <a href="https://www.chevrolet.com/suvs/tahoe">
+                <img src="public/images/1.png" alt="#" height="80%">
+              </a>
+              <p class="pt-3 item-name">
+                Mercedes Grand Sedan
+              </p>
+              <a class="item-price btn-add" href="https://www.chevrolet.com/suvs/tahoe">starting from $120</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-0 ">
+            <div class="item">
+              <a href="https://www.carmodel.com/vitesse/36312/1-43/lincoln/town-car-limousine-2000/54591">
+                <img src="public/images/2.png" alt="#" height="80%">
+              </a>
+              <p class="pt-3 item-name">
+                Mercedes Grand Sedan
+              </p>
+              <a class="item-price btn-add"
+                href="https://www.carmodel.com/vitesse/36312/1-43/lincoln/town-car-limousine-2000/54591">starting from
+                $120</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-0 ">
+            <div class="item">
+              <a href="https://www.caranddriver.com/mercedes-benz/sprinter-2018">
+                <img src="public/images/3.png" alt="#" height="80%">
+              </a>
+              <p class="pt-3 item-name">
+                Mercedes Grand Sedan
+              </p>
+              <a class="item-price btn-add" href="https://www.caranddriver.com/mercedes-benz/sprinter-2018">starting
+                from
+                $120</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-0 ">
+            <div class="item">
+              <a href="https://www.caranddriver.com/mercedes-benz/sls-amg/specs">
+                <img src="public/images/4.png" alt="#" height="80%">
+              </a>
+              <p class="pt-3 item-name">
+                Mercedes Grand Sedan
+              </p>
+              <a class="item-price btn-add" href="https://www.caranddriver.com/mercedes-benz/sls-amg/specs">starting
+                from
+                $120</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="giua">
+        WELCOME TO GENURENT
+        <hr class="hrr">
+      </h3>
+      <p class="chu">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore
+        magna aliquyam erat, sed diam
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 ax">
+            <div class="image-wrapper">
+              <img src="public/images/1-1.png" alt="#">
+              <h5>
+                Car dealer number one world wide
+              </h5>
+            </div>
+            <p class="oh">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut
+              labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col-6 ax">
+            <div class="image-wrapper">
+              <img src="public/images/2-1.png" alt="#">
+              <h5>
+                We are about your sercurity in our cars
+              </h5>
+            </div>
+            <p class="oh">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut
+              labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="image-wrapperr">
+        <img src="public/images/texture-1.jpg" alt="#" width="100%">
+        <div class="textt">
+          <h2>
+            Out Most Important
+          </h2>
+          <h3>
+            Prices & Awards
+          </h3>
+        </div>
+        <div class="imgg">
+          <img src="public/images/3 (1).png" alt="#">
+          <div class="test">
+            <p class="pt-2 trang">
+              First Class Cars
+            </p>
+          </div>
+        </div>
+        <div class="imggg">
+          <img src="public/images/4 (1).png" alt="#">
+          <div class="testt">
+            <p class="pt-2 trangg">
+              Number One Dealer
+            </p>
+          </div>
+        </div>
+        <div class="imgggg ">
+          <img src="public/images/5.png" alt="#">
+        </div>
+        <div class="tests">
+          <p class="tester">
+            Rated with 5 stars
+          </p>
+        </div>
+      </div>
+      <div class="image">
+        <img src="public/images/background-1.jpg" alt="#" width="100%">
+        <div class="container zedd">
+          <div class="row">
+            <div class="col-6 image-wra">
+              <h3 class="zed">
+                We offer clean cars
+              </h3>
+              <h3 class="zed">
+                for everyone
+              </h3>
+              <h4 class="ys">
+                fast. cheap. quality. security
+              </h4>
+            </div>
+            <div class="col-6 image-wra">
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="dev">
+        <h1>
+          OUR NEWEST VEHICLES
+        </h1>
+        <hr class="hrrr">
+      </div>
+      <br>
+      <div class=" devv">
+        <a href="#" class="az"> All</a>
+        <p>
+          /
+        </p>
+        <a href="#" class="az">PARTY BUS</a>
+        <P>
+          /
+        </P>
+        <a href="#" class="az">
+          STRETCH LIMO
+        </a>
+        <p>
+          /
+        </p>
+        <a href="#" class="az">SPORT EDITION</a>
+        <p>
+          /
+        </p>
+        <a href="#" class="az">MUSCLE CAR</a>
+        <p>
+          /
+        </p>
+        <a href="#" class="az">SUV LIMO</a>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="image-p">
+        <img src="public/images/background-2.jpg" alt="#" width="100%">
+        <h2 class="ahir">
+          WHAT DID OUR CLIENTS SAY
+        </h2>
+        <hr class="hrrrr">
+      </div>
+      <div>
+        <img src="public/images/Screenshot (161).png" alt="#" width="100%">
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="qqqq">
+        <h1>
+          WHAT DID OUR CLIENTS SAY
+        </h1>
+        <hr>
+      </div>
+      <br>
+      <br>
+      <div class="containerrr">
+        <img class="nho" src="public/images/map-pin.png" alt="#" width="20px" height="20px">
+        <h5>Rent Location</h5>
+        <img class="lon" src="public/images/map-pin-2.png" alt="#">
+        <h5>Head Office</h5>
+      </div>
+      <br>
+      <br>
+      <div id="map"></div>
+      <div class="mauden">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <br>
+              <br>
+              <p class="aboutus">
+                ABOUT US
+              </p>
+              <hr class="hrrrrr">
+              <p class="while">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              </p>
+              <a href="#">
+                <img src="public/images/footer-logo.png" alt="">
+              </a>
+              <br>
+            </div>
+            <div class="col-3">
+              <br>
+              <br>
+              <p class="aboutus">
+                ABOUT US
+              </p>
+              <hr class="hrrrrr">
+              <p>
+                <i class="fa fa-map-marker xam"> 115 Westham Street Albony New York </i>
+              </p>
+              <p>
+                <i class="fa fa-phone xam"> +49 123456789</i>
+              </p>
+              <p>
+                <i class="fa fa-phone xam"> +49 123456789</i>
+              </p>
+              <p>
+                <i class="fa fa-envelope xam"> genurent@email.com</i>
+              </p>
+            </div>
+            <div class="col-3">
+              <br>
+              <br>
+              <p class="aboutus">
+                RECENT POSTS
+              </p>
+              <hr class="hrrrrr">
+              <p class="while ">
+                <a href="#" class="acs"> > We are the best...</a>
+              </p>
+              <hr class="hra">
+              <p class="while ">
+                <a href="#" class="acs"> > We are the best...</a>
+              </p>
+              <hr class="hra">
+              <p class="while ">
+                <a href="#" class="acs"> > We are the best...</a>
+              </p>
+              <hr class="hra">
+              <p class="while ">
+                <a href="#" class="acs"> > We are the best...</a>
+              </p>
+            </div>
+            <div class="col-3">
+              <br>
+              <br>
+              <p class="aboutus">
+                OUR GALLERY
+              </p>
+              <hr class="hrrrrr">
+              <div class="row">
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/6-1.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/5-1.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/7.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/offer-slider-3.jpg" alt="#" width="70px" class="pt-1 px-1" height="53px">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/8.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/7.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/6-1.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+                <div class="col-3">
+                  <a href="#">
+                    <img src="public/images/5-1.jpg" alt="#" width="70px" class="pt-1 px-1">
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!--
+   Footer 
+  -->
+      <footer>
+        <p class="foz pt-3">
+          Copyright 2020 &copy; Genurent - Car Renting Service HTML Template | All Rights Reserved
+        </p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/bindinodeptrai/">
+            <i class="fa fa-facebook-official "></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter "></i>
+          </a>
+          <a href="https://myaccount.google.com/?hl=vi&utm_source=OGB&utm_medium=act&pli=1">
+            <i class="fa fa-google-plus "></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-linkedin "></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-instagram "></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-pinterest-p "></i>
+          </a>
+        </div>
+      </footer>
+      <script src="public/js/bootstrap.min.js "></script>
+      <script src="public/js/java.js"></script>
+</body>
+
+</html>

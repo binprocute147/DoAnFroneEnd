@@ -1,0 +1,501 @@
+
+.anh {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+}
+
+.anh .nav-item {
+    float: left;
+}
+
+.anh .nav-item .abc {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.anh .nav-item .abc:hover {
+    background-color: orange;
+    color: black;
+    opacity: 1;
+}
+
+.nav-link {
+    white-space: nowrap;
+}
+
+.nav-link:not(.active) {
+    opacity: 0.6;
+}
+
+.anhh {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 35%;
+    left: 26.8%;
+    transform: translate(-50%, -50%);
+}
+
+.anhh .nav-itemm {
+    float: left;
+}
+
+.anhh .nav-itemm .abcd {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.COLOR {
+    background-color: orangered;
+    color: white;
+}
+
+.anhhh {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.anhhh .nav-itemmm {
+    float: left;
+}
+
+.anhhh .nav-itemmm .abcde {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mau {
+    color: white;
+}
+
+.anhhhh {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 52%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+.anhhhh .nav-itemmmm {
+    float: left;
+}
+
+.anhhhh .nav-itemmmm .abcdef {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mauu {
+    color: white;
+}
+
+.anhhhhh {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 59.5%;
+    left: 25.5%;
+    transform: translate(-50%, -50%);
+}
+
+.anhhhhh .nav-itemmmmm {
+    float: left;
+}
+
+.anhhhhh .nav-itemmmmm .abcdefg {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mauuu {
+    color: white;
+}
+
+.btn-shop {
+    border-bottom: 99px;
+    background: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: #23272a;
+    display: inline-block;
+}
+
+.btn-shop:hover {
+    background: orangered;
+    color: #fff;
+}
+
+.item {
+    background: white;
+    text-align: center;
+    padding: 70px 30px;
+
+}
+
+.item .item-name {
+    color: black;
+    text-decoration: none;
+}
+
+.item .item-price {
+    font-size: 1.3em;
+    border-top: 1px solid white;
+}
+
+.btn-add {
+    border-bottom: 99px;
+    background: orangered;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 8em;
+    display: inline-block;
+}
+
+.backgrout {
+    background: white;
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.giua {
+    text-align: center;
+}
+
+.hrr {
+    width: 5%;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-top: 3px solid red;
+    margin-top: 20px;
+}
+
+.chu {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-wrapper img {
+    display: block;
+}
+
+.image-wrapper h5 {
+    margin-left: 20px;
+}
+
+.oh {
+    padding: 15px 15px;
+}
+
+.col-6 {
+    border: 1.5px solid #ececec;
+}
+
+.image-wrapperr {
+    position: relative;
+}
+
+.image-wrapperr img {
+    display: block;
+}
+
+.image-wrapperr .textt {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.textt {
+    color: white;
+}
+
+.imgg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test {
+    margin-top: 10px;
+}
+
+.trang {
+    color: white;
+}
+
+.imggg {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+.testt {
+    margin-top: 10px;
+}
+
+.trangg {
+    color: white;
+}
+
+.imgggg {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+
+.tests {
+    position: absolute;
+    top: 72%;
+    right: 13%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tester {
+    color: white;
+}
+
+.image {
+    position: relative;
+}
+
+.zedd {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 20%;
+}
+
+.zed {
+    color: black;
+}
+
+.ys {
+    color: orangered
+}
+
+.image-wra {
+    padding: 30px 30px;
+    background-color: white;
+}
+
+.dev {
+    text-align: center;
+}
+
+.hrrr {
+    width: 5%;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-top: 3px solid red;
+    margin-top: 20px;
+}
+
+.devv {
+    display: flex;
+    justify-content: center;
+}
+
+.devv .az {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.devv .az:hover {
+    color: orangered;
+}
+
+.devv a,
+.devv p {
+    margin: 0 10px;
+}
+
+.image-p {
+    position: relative;
+}
+
+.ahir {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+}
+
+.hrrrr {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    width: 5%;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-top: 3px solid red;
+    margin-top: 20px;
+}
+
+.qqqq {
+    text-align: center;
+}
+
+.qqqq hr {
+    width: 5%;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-top: 3px solid red;
+    margin-top: 20px;
+}
+
+.containerrr {
+    display: flex;
+    justify-content: center;
+}
+
+.containerrr .nho {
+    margin: 10px 2px;
+}
+
+.containerrr .lon {
+    margin: 2px;
+}
+
+.containerrr h5 {
+    margin: 10px 20px;
+}
+
+.mauden {
+    background: #252525;
+}
+
+.aboutus {
+    color: #e8e8e8;
+}
+
+.while {
+    color: white;
+}
+
+.hrrrrr {
+    margin-left: 1px;
+    width: 13%;
+    background-color: orangered;
+    border: none;
+    border-top: 3px solid orangered;
+    margin-top: 20px;
+}
+
+.xam {
+    color: #eaeaea;
+}
+
+.acs {
+    color: white;
+    text-decoration: none;
+}
+
+.hra {
+    width: 90%;
+    background-color: gray;
+    border-top: 1px solid gray;
+}
+
+footer {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.foz {
+    margin-left: 80px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 90px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+}
